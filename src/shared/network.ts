@@ -1,6 +1,8 @@
 import { Networking } from "@flamework/networking";
 
-interface ServerEvents {}
+interface ServerEvents {
+	plantSeed(seed: string, plantPlot: Instance): void;
+}
 
 interface ClientEvents {}
 
